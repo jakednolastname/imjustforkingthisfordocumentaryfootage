@@ -13,7 +13,7 @@ const path = require("path");
 
 const jdenticon = require("jdenticon");
 
-require("dotenv").config();
+require("dotenv").config()
 
 const port = process.env.LISTEN_PORT || 8080;
 const app = express();
